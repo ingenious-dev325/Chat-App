@@ -43,23 +43,26 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Chat Engine is a free serverless chat API.
 
-Try our free plan at chatengine.io
+Try our free plan at [chatengine.io](http://https://chatengine.io/ "chatengine.io")
 
 ## Installation
-Using npm: npm install react-chat-engine --save
-Using Yarn: yarn add react-chat-engine
-Quick Start
-Add serverless chat to your React app in 3 minutes.
 
-Register then create a project and user at chatengine.io
+* Using npm: npm install react-chat-engine --save
+* Using Yarn: yarn add react-chat-engine
 
-Collect the public key, username and user password
+### Quick Start
 
-Install yarn add react-chat-engine
+* Add serverless chat to your React app in 3 minutes.
 
-Import the ChatEngine component and pass in publicKey, userName, and userSecret props
+* Register then create a project and user at chatengine.io
 
-Voila! You're done
+* Collect the public key, username and user password
+
+* Install yarn add react-chat-engine
+
+* Import the ChatEngine component and pass in publicKey, userName, and userSecret props
+
+* Voila! You're done
 
 ### EXAMPLE: Your implementation should look like the following
 ```
@@ -79,6 +82,7 @@ export function App() {
 ```
 
 ## Features
+
 * Authenticate users
 * Subscribe (connect) to incoming chats and messages
 * Create chats and messages
@@ -86,6 +90,7 @@ export function App() {
 * Edit and delete chat and message data
 
 ## Props
+
 * `publicKey` (UUID REQUIRED) - Public API key for your chatengine.io project
 * `userName` (String REQUIRED) - Username of a person in this project
 * `userSecret` (String REQUIRED) - Set a secret for this person and use it to authenticate.
@@ -124,7 +129,9 @@ functionName(conn, args)
 * `deleteMessage` (props, chatId, messageId) => void - Delete an exiting message object from this chat
 
 ## Objects
+
 ### Chat Object
+
 * `id` (int) - Unique primary key to identify this chat
 * `admin` (String) - Unique username of the person who created this chat
 * `title` (String) - Optional title of this chat
@@ -145,12 +152,14 @@ functionName(conn, args)
 ```
 
 ## Chat / Person Association
+
 * `person` (String) - Unique username of a person involved in this chat
 ```
 { person: "john_smith" }
 ```
 
 ## Message Object
+
 * `id` (int) - Unique primary key to identify this message
 * `sender` (String) - Unique username of the person who sent this message
 * `text` (String) - Contents of the message sent
@@ -164,6 +173,7 @@ functionName(conn, args)
 }
 ```
 ## Keywords
+
  none
 
 ## Project Demo
@@ -172,10 +182,10 @@ https://react-community-chatapp.netlify.app/
 
 
 ## Demo Credentials
-### 1.) User 1
-username: user1 \
-password: 123123 
+### 1.) User 1:
+* username: user1 \
+* password: 123123 
 
-### 2.) User 2
-username: user2 \
-password: 123123
+### 2.) User 2:
+* username: user2 \
+* password: 123123
