@@ -183,9 +183,9 @@ https://react-community-chatapp.netlify.app/
 
 ## Demo Credentials
 ### 1.) User 1:
-* username: user1 \
+* username: user1
 * password: 123123 
 
 ### 2.) User 2:
-* username: user2 \
+* username: user2
 * password: 123123
